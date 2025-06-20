@@ -1,0 +1,192 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    height: 50px;
+    width: 105px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url(./Logo/Amazon_logo2.png);
+    position: absolute;
+    left: 560px;
+    top: 8px;
+}
+
+.sign-in-box {
+    height: 355px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    left: 450px;
+}
+
+h1 {
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+h5 {
+    margin-bottom: 5px;
+}
+
+#input-text {
+    width: 285px;
+    height: 22px;
+    padding-left: 5px;
+    margin-bottom: 12px;
+    cursor: text;
+}
+
+#input-text:hover {
+    border: 2px solid #a3c2c2;
+    border-radius: 3px;
+}
+
+#continue {
+    height: 30px;
+    width: 300px;
+    background-color: #ffd633;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+#continue:active {
+    background-color: #ffdb4d;
+    transform: scale(1);
+}
+
+.sign-in-content {
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-right: 28px;
+}
+
+p {
+    font-size: small;
+    margin-bottom: 15px;
+    line-height: 18px;
+}
+
+a {
+    color: #007185;
+}
+
+.need-help {
+    width: 95px;
+    border: none;
+    cursor: pointer;
+}
+
+#box-hr-line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-endtext {
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    position: relative;
+    left: -5px;
+}
+
+.box-endtext:hover {
+    text-decoration: underline;
+}
+
+.box-endtext:active {
+    border: 2.5px solid rgb(0, 113, 133);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.outside-lines {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.text {
+    font-size: 14px;
+    color: #555555;
+}
+
+.new-account {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.new-account button {
+    background-color: white;
+    color: #111;
+    border: 1px solid #d5d9d9;
+    box-shadow: 0 1px 2px rgba(15, 17, 17, 0.15);
+    border-radius: 15px;
+    height: 30px;
+    width: 350px;
+    cursor: pointer;
+}
+
+.new-account button a {
+    text-decoration: none;
+    color: #111;
+}
+
+.new-account button:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 5px rgba(15, 17, 17, 0.2);
+}
+
+.footer-hr-line {
+    height: 2px;
+    background-color: #ccc;
+    margin-top: 170px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.footer-text a {
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.footer-text a:active {
+    border: 2.5px solid rgb(0, 113, 133);
+    border-radius: 10px;
+}
+
+.footer-text a {
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 12px;
+    padding-right: 50px;
+    margin-bottom: 8px;
+    color: #555555;
+    margin-top: 15px;
+}

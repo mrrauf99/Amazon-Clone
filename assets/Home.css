@@ -1,0 +1,430 @@
+* {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+/* ----Navigation Bar---- */
+/* ----box 1---- */
+.navbar {
+    height: 60px;
+    background-color: #1b4332;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 120px;
+    padding-left: 4px;
+}
+
+.logo {
+    height: 50px;
+    width: 115px;
+    background-image: url(./Logo/Amazon_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.nav-logo:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+/* -----box2----- */
+.nav-address {
+    width: 90px;
+    height: 45px;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.address1 {
+    font-size: 0.85rem;
+    color: #cccc;
+    margin-left: 15px;
+}
+
+.address2 {
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-address:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+/* ----Box 3----- */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 550px;
+    border-radius: 4px;
+}
+
+.nav-search:hover {
+    border: 2px solid #EDBFC6;
+}
+
+#search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.search-input {
+    width: 100%;
+    padding-left: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: text;
+}
+
+.search-icon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: rgb(160, 27, 160);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+/* ----Box 4---- */
+.lang {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    height: 45px;
+    width: 47px;
+}
+
+.lang:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+/* ----Box 5---- */
+.nav-signin {
+    width: 125px;
+    padding-left: 12px;
+    padding-top: 10px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.nav-signin a {
+    color: white;
+    text-decoration: none;
+}
+
+.firstline {
+    font-size: 12px;
+}
+
+.secondline {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.nav-signin:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+/* ----box 6---- */
+.nav-return {
+    width: 80px;
+    height: 43px;
+    padding-left: 12px;
+    padding-top: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav-return a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-return:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+/* ----box 7---- */
+.nav-cart i {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.nav-cart {
+    padding-top: 10px;
+    padding-left: 8px;
+    width: 75px;
+    height: 35px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav-cart a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-cart:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+/* ----Panel---- */
+.panel {
+    background-color: #2d6a4f;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.panel a {
+    text-decoration: none;
+    color: white;
+    margin-left: 8px;
+    margin-right: 15px;
+    padding-top: 8px;
+    font-weight: 700;
+    height: 25px;
+}
+
+.panel a:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.panel i {
+    margin-left: 8px;
+}
+
+/* ----her0-section---- */
+.hero-section {
+    background-image: url(Hero_Section/1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+/* ----Shop Section----- */
+.content-position {
+    position: absolute;
+    top: 400px;
+}
+
+/* ----1 row---- */
+.ShopSection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    background-color: white;
+    height: 270px;
+    width: 23%;
+    padding: 15px 0px 15px;
+}
+
+.boxcontent {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.box-img {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.img12 {
+    margin-left: 15px;
+}
+
+.boxcontent a {
+    cursor: pointer;
+    color: #007185;
+    font-size: 13px;
+}
+
+/* ----2 row---- */
+.box-img2 {
+    height: 200px;
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.boxB {
+    background-color: white;
+    height: 280px;
+    width: 23.13%;
+    padding: 15px 0px 22px;
+}
+
+/* ------Display Bar---- */
+.bar-content {
+    height: 300px;
+    width: 95.7%;
+    background-color: white;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+
+.bar-img {
+    margin-top: 10px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.sign-in-button {
+    text-align: center;
+    margin-top: 25px;
+    height: 130px;
+    background-color: white;
+}
+
+.sign-in-button button {
+    width: 160px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ffd633;
+    border: none;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.sign-in-button a {
+    color: #007185;
+
+}
+
+.sign-in-button a:hover {
+    text-decoration: underline;
+}
+
+.sign-in-button p {
+    font-size: 14px;
+}
+
+hr {
+    margin-top: 25px;
+}
+
+#back-to-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    height: 50px;
+    background-color: rgb(55, 71, 90);
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#back-to-top:hover {
+    background-color: #44586f;
+}
+
+footer {
+    background-color: rgb(35, 47, 62);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.footer-list li a {
+    color: #dddd;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-list li {
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+.footer-heading {
+    padding-top: 50px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+.footer-end {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131a22;
+    color: #dddd;
+    font-size: 12px;
+}
+
+.footer-end a {
+    color: #dddd;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#copyright {
+    color: #dddd;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.footer-a:hover {
+    border: none;
+    text-decoration: underline;
+}

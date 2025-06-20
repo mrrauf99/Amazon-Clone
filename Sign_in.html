@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-in</title>
+    <link rel="stylesheet" href="./assets/sign_in.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/Logo/browser_icon.png"
+    />
+  </head>
+
+  <body>
+    <form action="login.php" method="post">
+      <br />
+      <header class="logo"></header>
+      <div class="sign-in-box">
+        <div class="sign-in-content">
+          <h1>Sign In</h1>
+          <div>
+            <label for="input-text">
+              <h5>Email or mobile phone number</h5>
+            </label>
+            <input type="text" required id="input-text" />
+            <button id="continue">Continue</button>
+            <p>
+              By continuing, you agree to Amazon's
+              <a
+                href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=508088"
+              >
+                Conditions of Use</a
+              >
+              and
+              <a
+                href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=468496"
+                >Privacy Notice</a
+              >.
+            </p>
+            <select class="need-help">
+              <option>Need help?</option>
+              <option>Forgot your password?</option>
+              <option>Other issues with Sign-In</option>
+            </select>
+            <hr id="box-hr-line" />
+            <h5>Buying for work?</h5>
+            <a
+              href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fbusiness%2Fregister%2Fcheck%2Fstatus%3Fref_%3Dab_reg_signin%26ref_%3Dab_welcome_bw_ckab_dsk%26originalRef%3Dab_reg_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_ab_reg_web_us&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=ab_welcome_login_us&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&switch_account=signin&disableLoginPrepopulate=1&openid.pape.preferred_auth_policies=Singlefactor&ref_=ab_welcome_bw_ap-sn_dsk"
+              class="box-endtext"
+              >Shop on Amazon Business</a
+            >
+          </div>
+        </div>
+        <div class="outside-lines">
+          <div class="line"></div>
+          <div class="text">New to Amazon?</div>
+          <div class="line"></div>
+        </div>
+        <div class="new-account">
+          <button>
+            <a
+              href="https://www.amazon.com/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_signin&prevRID=WMBJ3N6073JAH97XPHMQ&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=usflex&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"
+              >Create your Amazon account</a
+            >
+          </button>
+        </div>
+      </div>
+    </form>
+    <footer>
+      <div class="footer-hr-line"></div>
+      <div class="footer-text">
+        <a
+          href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=468496"
+          style="width: 95px; padding-left: 5px"
+        >
+          Condition of Use
+        </a>
+        <a
+          href="https://www.amazon.com/gp/help/customer/display.html"
+          style="width: 83px; padding-left: 6px"
+        >
+          Privacy Notice
+        </a>
+        <a
+          href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=508088"
+          style="width: 35px; padding-left: 7px"
+        >
+          Help
+        </a>
+      </div>
+      <div id="copyright">© 1996-2024, Amazon.com, Inc. or its affiliates</div>
+    </footer>
+  </body>
+</html>
