@@ -1,0 +1,140 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in-box {
+    margin-top: 8px;
+}
+
+.box-content h1 {
+    font-size: 20px;
+    padding-bottom: 4px;
+    font-weight: 400;
+}
+
+.box-content {
+    height: 343px;
+    width: 349px;
+    padding: 20px 26px 20px 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.input-title p {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.input-text {
+    padding: 3px 7px 3px 7px;
+}
+
+.btn-continue {
+    height: 30px;
+    background-color: #ffdb4d;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    padding: 1px 6px 1px 6px;
+}
+
+.btn-continue:hover {
+    background-color: #ffd633;
+}
+
+.box-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.terms-text {
+    font-size: 13px;
+    margin-top: 16px;
+    margin-bottom: 13px;
+}
+
+.help-text {
+    font-size: 14px;
+    margin-bottom: 1rem;
+
+}
+
+.help-text a {
+    text-decoration: none;
+}
+
+.help-text a:hover {
+    text-decoration: underline;
+}
+
+.registeration {
+    border-top: 1px solid rgba(205, 199, 199, 0.523);
+    padding-top: 10px;
+}
+
+.registeration div {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.registeration a {
+    text-decoration: none;
+}
+
+.registeration a:hover {
+    text-decoration: underline;
+}
+
+.box-content a {
+    color: #2162a1;
+}
+
+.terms-conditions ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 12px;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+.terms-conditions a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.terms-conditions a {
+    text-decoration: none;
+    color: #2162a1;
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: center;
+}
+
+#divider-line {
+    background-color: rgba(205, 199, 199, 0.523);
+    height: 3px;
+    margin-top: 40px;
+}
+
+footer {
+    font-size: 12px;
+    margin-top: 25px;
+}

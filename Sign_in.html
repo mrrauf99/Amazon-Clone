@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-in</title>
+    <link rel="stylesheet" href="./assets/sign_in.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/Logo/browser_icon.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container-fluid pt-2 pb-3">
+      <!-------header section------>
+      <header class="Logo">
+        <img
+          src="./assets/Logo/Amazon_logo2.png"
+          alt="Amazon Logo"
+          height="50px"
+        />
+      </header>
+      <!-- -----Sign In Box----- -->
+      <div class="sign-in-box">
+        <div class="box-content">
+          <h1>Sign in or create account</h1>
+          <div class="input-title">
+            <p>Enter mobile number or email</p>
+          </div>
+          <form action="login.php">
+            <input type="text" class="input-text" />
+            <button class="btn-continue">Continue</button>
+          </form>
+          <div class="terms-text">
+            By continuing, you agree to Amazon's
+            <a
+              href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=508088"
+              >Conditions of Use</a
+            >
+            and
+            <a
+              href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=468496"
+              >Privacy Notice</a
+            >.
+          </div>
+          <div class="help-text">
+            <a
+              href="https://www.amazon.com/gp/help/customer/account-issues/ref=unified_claim_collection?ie=UTF8"
+              target="_blank"
+              >Need Help?</a
+            >
+          </div>
+          <div class="registeration">
+            <div><b>Buying for work?</b></div>
+            <div>
+              <a
+                href="https://www.amazon.com/business/register/org/landing?ref_=ab_reg_signin_unifiedauth"
+                >Create a free business account</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="divider-line"></div>
+    <footer>
+      <div class="terms-conditions">
+        <ul>
+          <li>
+            <a
+              href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=508088"
+              target="_blank"
+              >Conditions of Use</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=468496"
+              target="_blank"
+              >Privacy Notice</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.amazon.com/gp/help/customer/display.html"
+              target="_blank"
+              >Help</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        © 1996-2025, Amazon.com, Inc. or its affiliates
+      </div>
+    </footer>
+  </body>
+</html>
