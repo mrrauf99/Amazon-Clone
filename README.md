@@ -10,10 +10,11 @@ This project features two main pages:
 
 • **Sign Up Form:** A simple registration page for new users.
 
-### ⚙️ Technologies Used
+💻 Technologies Used
+-
+🌐 HTML5 — Markup and structure
 
-- ![HTML5](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg) **HTML5**  
-- ![CSS3](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg) **CSS3**
+🎨 CSS3 — Styling and layout
 
 
 🚀 How to Run
