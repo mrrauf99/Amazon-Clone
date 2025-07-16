@@ -6,9 +6,9 @@ A basic clone of the Amazon website built using HTML and CSS to practice front-e
 -
 This project features two main pages:
 
-• **Main Form:** The homepage showcasing product listings and navigation.
+● **Main Form:** The homepage showcasing product listings and navigation.
 
-• **Sign Up Form:** A simple registration page for new users.
+● **Sign Up Form:** A simple registration page for new users.
 
 💻 Technologies Used
 -
@@ -19,11 +19,11 @@ This project features two main pages:
 
 🚀 How to Run
 -
-• Clone or download the repository.
+● Clone or download the repository.
 
-• Open index.html in your web browser.
+● Open index.html in your web browser.
 
-• Navigate between the main page and sign up form to explore the layout.
+● Navigate between the main page and sign up form to explore the layout.
 
 ❤️ Thank You!
 -
