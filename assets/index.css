@@ -377,7 +377,7 @@ footer li {
 .footer-heading {
     padding-top: 50px;
     padding-left: 40px;
-    font-weight: bold;
+    margin: 0;
 }
 
 .footer-end {
