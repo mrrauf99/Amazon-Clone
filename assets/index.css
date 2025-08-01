@@ -351,15 +351,11 @@ hr {
     font-weight: 500;
 }
 
-.back-to-top>a:visited {
-    color: white;
-}
-
 .back-to-top:hover {
     background-color: #44586f;
 }
 
-footer>main {
+footer>section {
     background-color: rgb(35, 47, 62);
     color: white;
     display: flex;
@@ -367,15 +363,14 @@ footer>main {
     padding-bottom: 50px;
 }
 
-.footer-list li a {
+footer a {
     color: #dddd;
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     text-decoration: none;
 }
 
-.footer-list li {
+footer li {
     padding-top: 10px;
     list-style-type: none;
 }
@@ -398,12 +393,7 @@ footer>main {
     font-size: 12px;
 }
 
-.footer-end a {
-    color: #dddd;
-    text-decoration: none;
-}
-
-.footer-end a:hover {
+footer a:hover {
     border: none;
     text-decoration: underline;
 }
