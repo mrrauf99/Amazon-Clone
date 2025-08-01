@@ -369,8 +369,11 @@ footer a {
     text-decoration: none;
 }
 
-footer li {
+footer li+li {
     padding-top: 10px;
+}
+
+footer li {
     list-style-type: none;
 }
 
