@@ -203,7 +203,7 @@ body {
     height: 50px;
     display: flex;
     align-items: center;
-    padding-left: 1rem;
+    padding-left: 10px;
 }
 
 .panel a {
@@ -417,11 +417,12 @@ footer a:hover {
 }
 
 @media(max-width:1264.740px) {
-    .navbar {
+    .navbar, .panel {
         width: 1264.740px;
     }
 
-    .panel {
-        width: 1264.740px;
+    .sign-in-box, footer {
+        width: 1284.740px;
     }
 }
+
